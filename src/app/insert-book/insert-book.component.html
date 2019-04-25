@@ -1,0 +1,36 @@
+
+<form class="example-container" [formGroup]="bookForm">
+
+  <div fxLayout='row' >
+
+    <div fxFlex="33%"></div>
+
+    <div fxFlex="34%">
+      <mat-form-field>
+        <input matInput  formControlName="bookName" placeholder="Enter a book name">
+      </mat-form-field>
+
+      <mat-form-field>
+        <input matInput   formControlName="author" placeholder="Enter an author name">
+      </mat-form-field>
+
+      <mat-form-field>
+          <input matInput  formControlName="year" placeholder="Enter a year">
+      </mat-form-field>
+
+      <mat-form-field>
+          <input matInput  formControlName="category" placeholder="Enter a category">
+      </mat-form-field>
+
+      <button mat-raised-button style="float: right;" (click)="save()" color="accent">save</button>
+    </div>
+
+    <div fxFlex="33%"></div>
+  </div>
+
+</form>
+
+
+
+<br/>
+{{ bookForm.value | json }}

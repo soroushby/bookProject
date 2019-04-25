@@ -1,1 +1,16 @@
 /* You can add global styles to this file, and also import other style files */
+
+@import "~@angular/material/prebuilt-themes/indigo-pink.css";
+@import "~firebaseui/dist/firebaseui.css";
+
+html,body{
+  height: 100%;
+}
+body {
+  margin: 0;
+
+}
+
+/* @import "ag-grid-community/dist/styles/ag-grid.css";
+@import "ag-grid-community/dist/styles/ag-theme-balham.css";
+@import '~bootstrap/dist/css/bootstrap.css'; */

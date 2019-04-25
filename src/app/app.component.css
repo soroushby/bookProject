@@ -1,0 +1,27 @@
+mat-sidenav-container,mat-sidenav,mat-sidenav-content{
+  height: 100%;
+}
+
+a {
+  text-decoration: none;
+  color:whitesmoke;
+}
+
+a:hover
+a:active{
+  color: rgb(168, 179, 202);
+}
+
+.toolbar{
+  flex-direction: row;
+}
+
+ul,li{
+  display: inline;
+  text-decoration: none;
+}
+
+.example-container{
+  background-color:rgb(166, 189, 219);
+}
+
