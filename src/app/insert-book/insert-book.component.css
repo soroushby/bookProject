@@ -3,12 +3,10 @@
   flex-direction: column;
 } */
 
-.example-container  {
-  width: 100%;
-
-}
-
-mat-form-field{
+.example-container {
   width: 100%;
 }
 
+mat-form-field {
+  width: 100%;
+}
